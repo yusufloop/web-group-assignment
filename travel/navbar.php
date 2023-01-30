@@ -35,9 +35,6 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="view-page.php">View Page</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="">Contact Us</a>
-                                </li>
                             </ul>
                         </div>
                     </nav>
