@@ -35,11 +35,7 @@
                                     <h2 class="text-uppercase mb-4">Places in <strong>Malaysia</strong> to visit</h2>
                                     <p class="mb-4">There are many palce to go around Malaysia</p>
                                     </div>
-                                    <div class="form-group tm-form-group tm-form-group-pad tm-form-group-1">
-                                        <label for="btnSubmit">&nbsp;</label>
-                                        <button type="submit" class="btn btn-primary tm-btn tm-btn-search text-uppercase text-center"
-                                            id="btnSubmit">Home</button>
-                                    </div>
+                                    
                                 </div>
                             </form>
 

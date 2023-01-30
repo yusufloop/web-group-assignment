@@ -33,7 +33,7 @@
                                     <a class="nav-link" href="register.php">Register</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="">View Page</a>
+                                    <a class="nav-link" href="view-page.php">View Page</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="">Contact Us</a>
