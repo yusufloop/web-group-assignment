@@ -477,12 +477,14 @@ footer p { color: white; }
 }
 
 .tm-name-container,
-.tm-email-container {
+.tm-lastname-container {
     width: 210px;
     float: left;    
 }
 
-.tm-email-container { margin-left: 10px; }
+.tm-lastname-container { margin-left: 10px; }
+
+.tm-email-container { width: 100%; }
 
 .tm-btn-send {
     width: 100%;
@@ -658,4 +660,10 @@ footer p { color: white; }
     .tm-form-group-3 {
         width: 100%;
     }    
+}
+
+.tm-register-bg {
+    background: url(../img/upsi.png) 0 0 no-repeat;;    
+    min-height: 720px;
+    position: relative;
 }
