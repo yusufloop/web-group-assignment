@@ -13,8 +13,8 @@
                 <div class="row">
                     <nav class="navbar navbar-expand-lg narbar-light">
                         <a class="navbar-brand mr-auto" href="#">
-                            <img src="img/logo.png" alt="Site logo">
-                            Journey
+                            <img src="img/logoTravel.png" alt="Site logo">
+                            TRAVEL
                         </a>
                         <button type="button" id="nav-toggle" class="navbar-toggler collapsed" data-toggle="collapse"
                             data-target="#mainNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,17 +23,20 @@
                         <div id="mainNav" class="collapse navbar-collapse tm-bg-white">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="#top">Home <span
-                                            class="sr-only">(current)</span></a>
+                                    <a class="nav-link active" href="index.php">Home
+                                         <span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#tm-section-2">Top Destinations</a>
+                                    <a class="nav-link" href="dev-info.php">Developer Info</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#tm-section-3">Recommended Places</a>
+                                    <a class="nav-link" href="register.php">Register</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#tm-section-4">Contact Us</a>
+                                    <a class="nav-link" href="">View Page</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="">Contact Us</a>
                                 </li>
                             </ul>
                         </div>

@@ -73,16 +73,6 @@
                 });
             });
 
-            // Date Picker in Search form
-            var pickerCheckIn = datepicker('#inputCheckIn');
-            var pickerCheckOut = datepicker('#inputCheckOut');
-
-            // Update nav links on scroll
-            $('#tm-top-bar').singlePageNav({
-                currentClass: 'active',
-                offset: 60
-            });
-
             // Close navbar after clicked
             $('.nav-link').click(function () {
                 $('#mainNav').removeClass('show');
