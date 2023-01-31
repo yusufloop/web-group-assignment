@@ -13,8 +13,8 @@
                 <div class="row">
                     <nav class="navbar navbar-expand-lg narbar-light">
                         <a class="navbar-brand mr-auto" href="#">
-                            <img src="img/logoTravel.png" alt="Site logo">
-                            TRAVEL
+                            <img src="img/logomms.png" alt="Site logo">
+                            MMSTravel
                         </a>
                         <button type="button" id="nav-toggle" class="navbar-toggler collapsed" data-toggle="collapse"
                             data-target="#mainNav" aria-expanded="false" aria-label="Toggle navigation">
