@@ -13,6 +13,19 @@
 
 <body>
     <?php include 'navbar.php';?>
+    
+    <section class="p-5 tm-container-outer tm-bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 mx-auto tm-about-text-wrap text-center">
+                    <h2 class="text-uppercase mb-4">The View page <strong>Developer</strong> in our website</h2>
+                    <p class="mb-4">This is the list of all the developer in our website</p>
+                    <a href="index.php" class="text-uppercase btn-primary tm-btn">Go back Home</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
     <section class="p-5 tm-container-outer bg-white">
     <div class="container">
         <!-- Tab 4 -->
@@ -51,7 +64,6 @@
         </div> <!-- tab-pane -->
     </div>
     </section>
-<a href="index.php" class="text-uppercase tm-btn tm-btn-white tm-btn-white-primary">Back</a>
 </body>
 <?php 
     include 'footer.php';
