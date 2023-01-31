@@ -13,7 +13,8 @@
 
 <body>
     <?php include 'navbar.php';?>
-    <div class="tab-content clearfix">
+    <section class="p-5 tm-container-outer bg-white">
+    <div class="container">
         <!-- Tab 4 -->
         <div class="tab-pane fade show active" id="4a">
 
@@ -33,8 +34,7 @@
                 <div class="tm-recommended-description-box">
                     <h3 class="tm-recommended-title"><?php echo $row["id"]. " " . $row["firstname"] . " " .  $row["lastname"]?></h3>
                     <p class="tm-text-highlight"><?php echo $row["matrixno"]?></p>
-                    <p class="tm-text-gray">Sed egestas, odio nec bibendum mattis, quam odio hendrerit
-                        risus, eu varius eros lacus sit amet lectus. Donec blandit luctus dictum...</p>
+                    
                 </div>
             </div>
         </div>
@@ -50,6 +50,7 @@
            
         </div> <!-- tab-pane -->
     </div>
+    </section>
 </body>
 <?php 
     include 'footer.php';

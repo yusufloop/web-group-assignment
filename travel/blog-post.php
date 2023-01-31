@@ -1,18 +1,26 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <?php 
+    include 'dblink.php';
+    include 'links.php';
+    ?>
+</head>
+
 <body>
-<?php
-include 'dblink.php';
-include 'links.php';
-include 'navbar.php';
+    <?php include 'navbar.php';?>
+        
+    <?php
 
-$firstname = $_POST["firstname"];
-$lastname = $_POST["lastname"];
-$matrixno = $_POST["matrixno"];
-$email = $_POST["email"];
+$placename = $_POST["placename"];
+$descriptions = $_POST["descriptions"];
 
-echo "welcome ".$firstname. " " . $lastname. "<br>";
-echo "Email is " .$email. "<br>";
-echo "Matrix Number ".$matrixno. "<br>";
+echo "placename is " .$placename. "<br>";
+echo "description is ".$descriptions. "<br>";
 
 
 // $sql1 = "INSERT INTO users (firstname, lastname, matrixno, email )
@@ -41,8 +49,8 @@ if(isset($_POST["submit"])){
             $imgContent = addslashes(file_get_contents($image)); 
          
             // Insert image content into database 
-            $insert = $conn->query("INSERT into users (firstname, lastname, matrixno, email,image) 
-            VALUES ('$firstname','$lastname','$matrixno','$email','$imgContent' )"); 
+            $insert = $conn->query("INSERT into users_blog (placename, image,descriptions) 
+            VALUES ('$placename','$imgContent','$descriptions' )"); 
              
             if($insert){ 
                 $status = 'success'; 
@@ -63,9 +71,13 @@ echo $statusMsg;
 
 $conn->close();
 
-include 'footer.php';
 ?>
 
-</body>
-</html>
+    <?php 
+    include 'footer.php';
+    include 'scriptfoot.php';
+    ?>
 
+</body>
+
+</html>

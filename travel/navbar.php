@@ -27,13 +27,19 @@
                                          <span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="dev-info.php">Developer Info</a>
+                                    <a class="nav-link" href="view-dev-info.php">Developer Info</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="register.php">Register</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="view-page.php">View Page</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="view-booking.php">View Booking</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="view-blog.php">View Blog</a>
                                 </li>
                             </ul>
                         </div>

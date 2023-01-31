@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <!-- load JS files -->
     <script src="js/jquery-1.11.3.min.js"></script> <!-- jQuery (https://jquery.com/download/) -->
@@ -66,12 +68,22 @@
                 }
             });
 
-            // Smooth scroll to search form
-            $('.tm-down-arrow-link').click(function () {
-                $.scrollTo('#tm-section-search', 300, {
-                    easing: 'linear'
-                });
+        // Smooth scroll to search form
+        $('.tm-down-arrow-link').click(function () {
+            $.scrollTo('#tm-section-search', 300, {
+                easing: 'linear'
             });
+        });
+
+            // Date Picker in Search form
+            var pickerCheckIn = datepicker('#inputCheckIn');
+            var pickerCheckOut = datepicker('#inputCheckOut');
+
+            // // Update nav links on scroll
+            // $('#tm-top-bar').singlePageNav({
+            //     currentClass: 'active',
+            //     offset: 60
+            // });
 
             // Close navbar after clicked
             $('.nav-link').click(function () {
@@ -91,4 +103,5 @@
         });
     </script>
 </body>
+
 </html>

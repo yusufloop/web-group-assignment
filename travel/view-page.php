@@ -25,33 +25,36 @@
             </div>
         </div>
     </section>
-
+    
     <?php
-        $sql = "SELECT id, firstname, lastname,email, matrixno , image FROM users";
+        $sql = "SELECT id, firstname, lastname,email, matrixno ,reg_date, image FROM users";
         $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {
         // output data of each row
+        
         while($row = $result->fetch_assoc()) {
         echo "<br>";
             ?>
-        <div class="tm-container-outer" id="tm-section-2">
-        <section class="tm-slideshow-section">
+            
+    <div class="tm-container-outer " id="tm-section-2">
+        <section class="tm-slideshow-section ">
             <div class="tm-slideshow">
                 <img src="data:image/jpg;charset=utf8;base64,<?php echo base64_encode($row['image']); ?>" alt="Image">
-                
+
             </div>
             <div class="tm-slideshow-description tm-bg-primary">
                 <h2 class=""><?php echo $row["id"]. " " . $row["firstname"] . " " .  $row["lastname"]?></h2>
                 <p><?php echo $row["matrixno"]?></p>
                 <p><?php echo $row["email"]?></p>
-                <p><?php echo $row["matrixno"]?></p>
+                <p><?php echo $row["reg_date"]?></p>
                 <a href="#" class="text-uppercase tm-btn tm-btn-white tm-btn-white-primary">Continue Reading</a>
             </div>
         </section>
     </div>
-       
-        <?php
+             
+
+    <?php
         }
         } else {
         echo "0 results";

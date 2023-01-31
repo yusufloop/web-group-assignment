@@ -38,10 +38,9 @@
                                 <input type="email" id="email" name="email" class="form-control"
                                     placeholder="Email" required />
                             </div>
-                            <div class="form-group">
+                            <div class="form-group tm-email-container">
                             <label>Select Image File:</label>
-                                <input type="file" name="image">
-                                <
+                                <input type="file" name="image">  
                             </div>
                             
                             <button type="submit" name="submit"  class="btn btn-primary tm-btn-primary tm-btn-send text-uppercase">Register Now</button>
