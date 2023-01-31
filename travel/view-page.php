@@ -40,7 +40,7 @@
     <div class="tm-container-outer " id="tm-section-2">
         <section class="tm-slideshow-section ">
             <div class="tm-slideshow">
-                <img src="data:image/jpg;charset=utf8;base64,<?php echo base64_encode($row['image']); ?>" alt="Image">
+                <img src="data:image/jpg;charset=utf8;base64,<?php echo base64_encode($row['image']); ?>" alt="Image" style="width: 600px; height:auto">
 
             </div>
             <div class="tm-slideshow-description tm-bg-primary">
