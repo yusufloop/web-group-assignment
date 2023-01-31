@@ -68,6 +68,7 @@
         </div>
 
     </section>
+    <a href="index.php" class="text-uppercase tm-btn tm-btn-white tm-btn-white-primary">Back</a>
     <?php 
     include 'footer.php';
     include 'scriptfoot.php';
