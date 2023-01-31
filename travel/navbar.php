@@ -12,7 +12,7 @@
             <div class="container">
                 <div class="row">
                     <nav class="navbar navbar-expand-lg narbar-light">
-                        <a class="navbar-brand mr-auto" href="#">
+                        <a class="navbar-brand mr-auto" href="index.php">
                             <img src="img/logomms.png" alt="Site logo">
                             MMSTravel
                         </a>
