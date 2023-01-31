@@ -40,15 +40,15 @@
     <div class="tm-container-outer " id="tm-section-2">
         <section class="tm-slideshow-section ">
             <div class="tm-slideshow">
-                <img src="data:image/jpg;charset=utf8;base64,<?php echo base64_encode($row['image']); ?>" alt="Image" style="width: 600px; height:auto">
+                <img src="data:image/jpg;charset=utf8;base64,<?php echo base64_encode($row['image']); ?>" alt="Image" style="margin-left:90px; width:400px; height:auto;">
 
             </div>
             <div class="tm-slideshow-description tm-bg-primary">
-                <h2 class=""><?php echo $row["id"]. " " . $row["firstname"] . " " .  $row["lastname"]?></h2>
-                <p><?php echo $row["matrixno"]?></p>
-                <p><?php echo $row["email"]?></p>
-                <p><?php echo $row["reg_date"]?></p>
-                <a href="#" class="text-uppercase tm-btn tm-btn-white tm-btn-white-primary">Continue Reading</a>
+                <h2 class=""><?php echo $row["id"]. ".<br> Name: " . $row["firstname"] . " " .  $row["lastname"]?></h2>
+                <p>Matric Number: <?php echo $row["matrixno"]?></p>
+                <p>Email: <?php echo $row["email"]?></p>
+                <p>Registration Date: <?php echo $row["reg_date"]?></p>
+                <a href="view-blog.php" class="text-uppercase tm-btn tm-btn-white tm-btn-white-primary">Continue Reading</a>
             </div>
         </section>
     </div>
