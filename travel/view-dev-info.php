@@ -13,7 +13,7 @@
 
 <body>
     <?php include 'navbar.php';?>
-    
+
     <section class="p-5 tm-container-outer tm-bg-gray">
         <div class="container">
             <div class="row">
@@ -25,7 +25,7 @@
             </div>
         </div>
     </section>
-    
+
     <section class="p-5 tm-container-outer bg-white">
     <div class="container">
         <!-- Tab 4 -->
@@ -45,8 +45,8 @@
             <div class="tm-recommended-place">
             <img src="data:image/jpg;charset=utf8;base64,<?php echo base64_encode($row['image']); ?>" alt="Image" class="img-fluid tm-recommended-img">
                 <div class="tm-recommended-description-box">
-                    <h3 class="tm-recommended-title"><?php echo $row["id"]. " " . $row["firstname"] . " " .  $row["lastname"]?></h3>
-                    <p class="tm-text-highlight"><?php echo $row["matrixno"]?></p>
+                    <h3 class="tm-recommended-title"><?php echo $row["id"]. ".<br> Name: " . $row["firstname"] . " " .  $row["lastname"]?></h3>
+                    <p class="tm-text-highlight" style="font-size: 15px;">Matric Number: <?php echo $row["matrixno"]?></p>
                     
                 </div>
             </div>
