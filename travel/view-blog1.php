@@ -35,7 +35,8 @@
                         alt="image" class="img-fluid tm-recommended-img">
                     <p><?php echo $row["descriptions"]?>
                     </p>
-
+                    
+                    <a href="view-blog.php" class="text-uppercase tm-btn tm-btn-white tm-btn-white-primary">Back</a>
 
                     <?php
         }
